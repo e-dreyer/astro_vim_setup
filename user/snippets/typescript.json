@@ -1,0 +1,40 @@
+{
+  "nextPage": {
+    "prefix": ["nextPage"],
+    "body": [
+      "const Page: NextPage = ($1) => {",
+      "$2",
+      "}"
+    ]
+  },
+  "import": {
+    "prefix": ["import"],
+    "body": [
+      "import {$1} from '$2'",
+      "$2"
+    ]
+  },
+  "const": {
+    "prefix": ["const"],
+    "body": [
+      "const $1 = ($2) => {",
+      "$3",
+      "}"
+    ]
+  },
+  "asyncConst": {
+    "prefix": ["asyncConst"],
+    "body": [
+      "const $1 = async ($2) => {",
+      "$3",
+      "}"
+    ]
+  },
+  "useState": {
+    "prefix": ["useState"],
+    "body": [
+      "const [ $1, set$2 ] = useState($3)"
+    ]
+  }
+}
+
